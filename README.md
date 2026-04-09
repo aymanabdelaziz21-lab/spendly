@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# Spendly
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Spendly is a simple and modern expense tracker app built to help users manage their daily finances more easily. It provides a clean interface for tracking income and expenses, reviewing reports, organizing categories, and customizing app settings.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+[View Spendly on GitHub Pages](your-github-pages-url)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Spendly is designed to give users a smooth and focused experience when managing personal finances. The app makes it easy to add transactions, monitor spending, explore monthly reports, and keep financial data organized in one place.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+* **Dashboard**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  * View a summary of your financial activity
+  * See spending insights with charts
+  * Check recent transactions at a glance
 
-### `npm run build`
+* **Reports**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * Select different months to review spending patterns
+  * View charts for better financial insights
+  * Manage budget settings
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **Transactions**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  * Browse a full list of transactions
+  * Search transactions quickly
+  * Filter transactions for easier tracking
 
-### `npm run eject`
+* **Categories**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  * Create and customize categories
+  * Organize spending based on your own preferences
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* **Settings**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  * Change currency
+  * Switch between dark and light theme
+  * Export data as a CSV file
+  * Reset app data
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* **Add Transaction**
 
-## Learn More
+  * Add new income or expense records using a simple form
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## First-Time Experience
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Spendly also includes a first-use hero page that welcomes users into the app and helps them get started quickly. This onboarding screen guides users toward adding their first transaction, exploring the dashboard, or taking a quick tour of the app.
 
-### Code Splitting
+## Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* JavaScript
+* React
+* GitHub Pages
 
-### Analyzing the Bundle Size
+> You can update this section with any additional tools or libraries you used, such as React Router, local storage, chart libraries, or UI frameworks.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Project Structure
 
-### Making a Progressive Web App
+This project is built around the main pages below:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Dashboard
+* Reports
+* Transactions
+* Categories
+* Settings
+* Add Transaction
 
-### Advanced Configuration
+## Use Cases
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Spendly is useful for users who want to:
 
-### Deployment
+* Track daily expenses
+* Monitor monthly spending habits
+* Organize transactions with categories
+* Export personal finance data
+* Manage their app preferences easily
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Screenshots
 
-### `npm run build` fails to minify
+```md
+![Dashboard Screenshot](./screenshots/dashboard.png)
+![Reports Screenshot](./screenshots/reports.png)
+![Transactions Screenshot](./screenshots/transactions.png)
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Installation
+
+If you want to run Spendly locally:
+
+```bash
+git clone <your-repository-url>
+cd spendly
+npm install
+npm start
+```
+
+> Replace `npm start` with the correct command if your project uses a different setup.
+
+## Future Improvements
+
+Some possible future improvements for Spendly:
+
+* User authentication
+* Cloud sync or database integration
+* Recurring transactions
+* Budget alerts and notifications
+* More advanced charts and reports
+* Mobile app support
+
+## Contributing
+
+Contributions, ideas, and suggestions are welcome. Feel free to fork the project and submit a pull request.
+
+## License
+
+This project is open source and available under the MIT License.
