@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Spendly/static/css/main.ac26a4a8.css",
+    "main.js": "/Spendly/static/js/main.96dd5c76.js",
+    "static/media/Rubik-Regular.ttf": "/Spendly/static/media/Rubik-Regular.252d4f722b7f9362a600.ttf",
+    "static/media/Poppins-Regular.ttf": "/Spendly/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "index.html": "/Spendly/index.html",
+    "main.ac26a4a8.css.map": "/Spendly/static/css/main.ac26a4a8.css.map",
+    "main.96dd5c76.js.map": "/Spendly/static/js/main.96dd5c76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac26a4a8.css",
+    "static/js/main.96dd5c76.js"
+  ]
+}
