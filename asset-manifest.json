@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Spendly/static/css/main.ac26a4a8.css",
-    "main.js": "/Spendly/static/js/main.96dd5c76.js",
-    "static/media/Rubik-Regular.ttf": "/Spendly/static/media/Rubik-Regular.252d4f722b7f9362a600.ttf",
-    "static/media/Poppins-Regular.ttf": "/Spendly/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "index.html": "/Spendly/index.html",
-    "main.ac26a4a8.css.map": "/Spendly/static/css/main.ac26a4a8.css.map",
-    "main.96dd5c76.js.map": "/Spendly/static/js/main.96dd5c76.js.map"
+    "main.css": "/spendly/static/css/main.c364ba3f.css",
+    "main.js": "/spendly/static/js/main.292a8e1b.js",
+    "static/media/Rubik-Regular.ttf": "/spendly/static/media/Rubik-Regular.252d4f722b7f9362a600.ttf",
+    "static/media/Poppins-Regular.ttf": "/spendly/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "index.html": "/spendly/index.html",
+    "main.c364ba3f.css.map": "/spendly/static/css/main.c364ba3f.css.map",
+    "main.292a8e1b.js.map": "/spendly/static/js/main.292a8e1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac26a4a8.css",
-    "static/js/main.96dd5c76.js"
+    "static/css/main.c364ba3f.css",
+    "static/js/main.292a8e1b.js"
   ]
 }
