@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter } from "react-router-dom"
+import { Route, Routes, BrowserRouter, HashRouter } from "react-router-dom"
 import Main from "./Main/_layout"
 import Index from "./Main/index"
 import { Dashboard, Transactions, Reports, Settings, Categories, Add } from "./Main/Pages"
@@ -7,7 +7,7 @@ import { Currency, Export, Reset, Theme } from "./Main/Settings/Pages"
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Index />} />
                 <Route element={<Main />}>
@@ -25,7 +25,7 @@ const App = () => {
                     <Route path="/categories" element={<Categories />} />
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
