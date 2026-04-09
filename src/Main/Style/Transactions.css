@@ -1,0 +1,140 @@
+.transactions {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.transactions-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.transactions-header .add-trans {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin: 7px;
+    padding: 4px 7px;
+    border: 1.5px solid var(--primary);
+    color: var(--primary);
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.transactions-header .add-trans:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.transactions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    border-radius: 12px;
+}
+
+.left {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.transaction-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    display: flex;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.category {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.date {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.amount.income {
+    color: var(--income);
+}
+
+.amount.expense {
+    color: var(--expense);
+}
+
+.delete-btn,
+.edit-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--text);
+    display: flex;
+}
+
+.filters-container {
+    display: flex;
+    gap: 7px;
+}
+
+.filters-container .top,
+.filters-container .bottom {
+    display: flex;
+    gap: 14px;
+}
+
+.filters-container input,
+.filters-container select {
+    outline: none;
+    color: var(--text);
+    background-color: var(--input);
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+}
+
+.transactions .no-trans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30vh;
+    gap: 14px;
+    padding: 21px;
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+    .filters-container {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+}

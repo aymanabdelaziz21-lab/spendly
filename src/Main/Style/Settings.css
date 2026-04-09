@@ -1,0 +1,150 @@
+.settings {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 2%;
+}
+
+.settings-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--text);
+    text-decoration: none;
+    width: 60%;
+}
+
+.settings-card:hover {
+    background-color: var(--secondary);
+}
+
+/* pages */
+
+.settings-layout {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.back {
+    color: var(--text);
+    font-weight: 700;
+    text-decoration: none;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 0 -1% 21px -1%;
+}
+
+.note {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.currency {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 1%;
+}
+
+.currency select {
+    width: 60%;
+    background-color: var(--input);
+    border: 1px solid var(--border);
+    color: var(--text);
+    outline: none;
+    padding: 14px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+
+.export {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 1%;
+}
+
+.export button {
+    width: 60%;
+    background-color: var(--primary);
+    border: 1px solid var(--border);
+    outline: none;
+    padding: 14px;
+    border-radius: 14px;
+    cursor: pointer;
+    color: white;
+}
+
+.export button:hover {
+    opacity: 0.8;
+}
+
+.reset {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 1%;
+}
+
+.reset button {
+    width: 60%;
+    background-color: var(--expense);
+    border: 1px solid var(--border);
+    outline: none;
+    padding: 14px;
+    border-radius: 14px;
+    cursor: pointer;
+    color: white;
+}
+
+.reset button:hover {
+    opacity: 0.8;
+}
+
+.theme {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 1%;
+}
+
+.theme .tip {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.theme button {
+    width: 60%;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border);
+    outline: none;
+    padding: 14px;
+    border-radius: 14px;
+    cursor: pointer;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.theme button:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .settings-card {
+        width: unset;
+    }
+
+    .reset button,
+    .export button,
+    .theme button,
+    .currency select {
+        width: unset;
+    }
+}

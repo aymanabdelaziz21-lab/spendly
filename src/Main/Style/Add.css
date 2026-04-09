@@ -1,0 +1,33 @@
+.add {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.add-form input,
+.add-form select {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--shadow);
+    outline: none;
+    color: var(--text);
+    background-color: var(--input);
+}
+
+.add-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background: var(--primary);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
