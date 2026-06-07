@@ -46,17 +46,12 @@ Spendly is designed to give users a smooth and focused experience when managing 
 
   * Add new income or expense records using a simple form
 
-## First-Time Experience
-
-Spendly also includes a first-use hero page that welcomes users into the app and helps them get started quickly. This onboarding screen guides users toward adding their first transaction, exploring the dashboard, or taking a quick tour of the app.
-
 ## Tech Stack
 
 * JavaScript
+* CSS
 * React
 * GitHub Pages
-
-> You can update this section with any additional tools or libraries you used, such as React Router, local storage, chart libraries, or UI frameworks.
 
 ## Project Structure
 
@@ -92,13 +87,11 @@ Spendly is useful for users who want to:
 If you want to run Spendly locally:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/aymanabdelaziz21-lab/spendly
 cd spendly
 npm install
 npm start
 ```
-
-> Replace `npm start` with the correct command if your project uses a different setup.
 
 ## Future Improvements
 
