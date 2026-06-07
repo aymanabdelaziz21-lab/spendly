@@ -4,7 +4,7 @@ Spendly is a simple and modern expense tracker app built to help users manage th
 
 ## Live Demo
 
-[View Spendly on GitHub Pages](your-github-pages-url)
+[View Spendly on GitHub Pages]([your-github-pages-url](https://aymanabdelaziz21-lab.github.io/spendly))
 
 ## Overview
 
